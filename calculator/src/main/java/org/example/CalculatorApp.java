@@ -2,23 +2,23 @@ package org.example;
 
 public class CalculatorApp {
 
-    // Adds two integers.
+    // Adds two integers
     public int add(int a, int b) {
         return a + b;
     }
 
-    // Subtracts one integer from another.
+    // Subtracts one integer from another
     public int subtract(int a, int b) {
         return a - b;
     }
 
-    // Multiplies two integers.
+    // Multiplies two integers
     public int multiply(int a, int b) {
         return a * b;
     }
 
-    // Divides one integer by another.
-    // Throws IllegalArgumentException if b is zero.
+    // Divides one integer by another
+    // Throws IllegalArgumentException if b is zero
     public int divide(int a, int b) {
         if (b == 0) {
             throw new IllegalArgumentException("Cannot divide by zero");
